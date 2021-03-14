@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import '@react-page/editor/lib/index.css';
 
 
-export function initEditor(element: Element | DocumentFragment | null) {
+export function initEditor(element: any) {
     ReactDOM.render(
         <React.StrictMode>
             <App />
