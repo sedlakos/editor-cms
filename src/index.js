@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import '@react-page/editor/lib/index.css';
 
 export default function initEditor(element) {
+    console.log("KURVA")
     ReactDOM.render(
         <React.StrictMode>
             <App />
